@@ -1,0 +1,12 @@
+header {
+  @apply fixed inset-x-0 top-0 max-h-[4rem] bg-background flex items-center p-4 gap-14 shadow-sm;
+
+  ul {
+    @apply md:flex gap-8 hidden;
+
+    li {
+      @apply hover:text-primary hover:scale-105 transition-all ease-in-out duration-75;
+    }
+  }
+}
+

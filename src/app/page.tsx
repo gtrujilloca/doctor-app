@@ -1,9 +1,10 @@
-import { Button } from "@/components/ui/button";
+import { Hero, CategorySearch } from "@/components";
 
 export default function Home() {
   return (
-    <main>
-      <Button >Button</Button>
-    </main>
+    <>
+      <Hero />
+      <CategorySearch />
+    </>
   );
 }
